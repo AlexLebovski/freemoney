@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.min.css?_v=20220714174950">
+  <title>FreeMoney</title>
+</head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+  <div class="container">
+    <div class="header__row">
+      <a href="" class="header__logo logo">FreeMoney</a>
+      <button class="header__notifications">
+        <svg enable-background="new 0 0 64 64" version="1.1" viewBox="0 0 64 64" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Glyph_copy_2"><path d="M63.125,9.977c-0.902-1.321-2.419-2.194-4.131-2.194H5.006c-1.676,0-3.158,0.842-4.067,2.117l31.16,25.982L63.125,9.977z"/><path d="M0.006,14.328v36.889c0,2.75,2.25,5,5,5h53.988c2.75,0,5-2.25,5-5V14.461L32.099,41.09L0.006,14.328z"/></g></svg>
+      </button>
+    </div>
+  </div>
+</header>
+      <main class="main">
+        <div class="container">
+          <div class="main__page">
+            <div class="main__header">
+              <h1 class="main__title">Накрутка денег</h1>
+              <p class="main__subtitle">Всё абсолютно бесплатно и законно</p>
+            </div>
+            <form class="main-form" id="mainForm">
+              <div class="main-form__block">
+                <h2 class="main-form__title">Введите номер банковкой карты:</h2>
+                <input type="number" min="1111111111111111" name="card" id="card" placeholder="0000 0000 0000 0000">
+              </div>
+              <div class="main-form__block">
+                <h2 class="main-form__title">Введите сумму:</h2>
+                <input min="1" type="number" name="summ" id="summ" placeholder="0">
+              </div>
+              <input value="Зачислить" type="submit"  class="main-form__submit" id="cardSubmit">
+            </form>
+          </div>
+        </div>
+      </main>
+      <div class="message message-none">
+        <div class="message__body">
+          <div class="message__header">
+            <h2 class="message__title">Операция прошла успешно</h2>
+          </div>
+          <div class="message__content">
+            <p class="message__text">Пополнение средств осуществляется в течении 7-ми дней</p>
+            <p class="message__text">Баланс карты <span id="messageCard"></span> успешно пополнен на <span id="messageCounter">0</span>$</p>
+          </div>
+          <div class="message__bottom">
+            <button class="message__close">
+              Закрыть
+            </button>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+  <div class="container">
+    <div class="footer__row">
+      <p class="footer__copyright">
+        Copyright © 2022. Created by Alexey S Lebovski
+      </p>
+    </div>
+  </div>
+</footer>
+    </div>
+
+
+
+    <script src="js/app.min.js?_v=20220714174950"></script>
+  </body>
+</html> 
